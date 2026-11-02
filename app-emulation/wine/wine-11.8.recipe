@@ -44,9 +44,11 @@ PROVIDES="
 	"
 REQUIRES="
 	haiku$secondaryArchSuffix
+	wayland_server$secondaryArchSuffix
 	lib:libfreetype$secondaryArchSuffix
 	lib:libusb$secondaryArchSuffix
 	lib:libvulkan$secondaryArchSuffix
+	lib:libxkbcommon$secondaryArchSuffix
 	"
 REPLACES="
 	wine_bin
