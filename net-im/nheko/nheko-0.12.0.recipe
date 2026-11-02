@@ -21,6 +21,8 @@ PROVIDES="
 	"
 REQUIRES="
 	haiku$secondaryArchSuffix
+	noto_emoji$secondaryArchSuffix
+	noto_emoji_color$secondaryArchSuffix
 	lib:libcmark$secondaryArchSuffix
 	lib:libcoeurl$secondaryArchSuffix
 	lib:libcrypto$secondaryArchSuffix
